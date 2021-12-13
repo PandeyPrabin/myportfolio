@@ -1,11 +1,9 @@
 import React from 'react'
+import Home from './components/home'
 
 function App() {
   return (
-    <div>
-      Hello Puja
-      
-    </div>
+    <div><Home /></div>
   )
 }
 
