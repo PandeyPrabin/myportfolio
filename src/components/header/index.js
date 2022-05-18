@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 import './header.css'
 import Mobile from './mobile'
 //import Mobile from './mobile'
 import Web from './web'
+import { FcMenu } from 'react-icons/fc'
 
 function Header() {
+    const[isOpen, setIsOpen] = useState(false);
     return (
         <div className='header'>
             <div className='logo'>Prabin</div>
@@ -13,10 +16,10 @@ function Header() {
                 <Web />
             </div>
             <div className='mobile-menu'>
-                <div>
-
-                    <i class="fi fi-rr-Apps"></i>
+                <div onClick={()=> setIsOpen(!isOpen)}>
+                    <FcMenu />
                 </div>
+                {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
             </div>
         </div>
     </div>
