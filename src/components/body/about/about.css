@@ -17,7 +17,7 @@
     font: 32px;
 }
 
-@media only screen and(max-width: 720px) {
+@media only screen and (max-width: 720px) {
     .about-top{
         flex-direction: column;
         justify-content: center;
@@ -25,6 +25,12 @@
     }
     .picture{
         height: 280px;
+    }
+    .about-info{
+        font-size: 20px;
+    }
+    .info-name{
+        font-size: 26px;
     }
 }
     
