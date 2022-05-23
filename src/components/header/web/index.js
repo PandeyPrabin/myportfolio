@@ -15,19 +15,16 @@ function Web() {
             <div className='web-option'>
                 <a href='#skills'>
                 <i class= 'option-icon'></i><FaLaptopCode />Skills
-
                 </a>
             </div>
             <div className='web-option'>
                 <a href='#work'>
                 <i class= 'option-icon'></i><MdWorkOutline />Work
-
                 </a>
             </div>
             <div className='web-option'>
                 <a href='#contact'>
                 <i class= 'option-icon'></i><MdOutlineContactPhone />Contact
-
                 </a>
             </div>
         </div>
