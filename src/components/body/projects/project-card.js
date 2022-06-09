@@ -22,7 +22,7 @@ function ProjectCard({project}) {
         <div className='project-tags'>
             {project.tags.map((tag)=>{
                 return(
-                    <label className=''>{tag}</label>
+                    <label className='tag'>{tag}</label>
                 )
             })}
         </div>
