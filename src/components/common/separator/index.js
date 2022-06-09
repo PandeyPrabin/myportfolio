@@ -3,7 +3,7 @@ import'./separator.css'
 
 function Separator() {
   return (
-    <div></div>
+    <div className='separator'></div>
   )
 }
 
