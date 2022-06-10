@@ -3,7 +3,11 @@ import'./skill-card.css'
 
 function SkillCard({skill}) {
   return (
-    <div></div>
+    <div className='skill-card'>
+        <div className='skill-icon'>{skill.icon}
+        </div>
+        <label className='skill-name'>{skill.name}</label>
+    </div>
   )
 }
 
