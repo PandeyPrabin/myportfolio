@@ -1,4 +1,4 @@
-import { computeHeadingLevel } from '@testing-library/react'
+//import { computeHeadingLevel } from '@testing-library/react'
 import React from 'react'
 import SocialContact from '../../common/social-contact'
 import './about.css'
@@ -13,7 +13,7 @@ function About() {
                 <br />This is my portfolio.
             </div>
             <div className='about-photo'>
-                <img src={require('../../../assets/coding.png').default} className='picture' />
+                <img src={require('../../../assets/coding.png').default}  alt='' className='picture' />
             </div>
         </div>
         <SocialContact />
