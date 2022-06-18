@@ -13,7 +13,7 @@ function About() {
                 <br />This is my portfolio.
             </div>
             <div className='about-photo'>
-                <img src={require('../../../assets/Prabin.jpeg').default}  alt='' className='picture' />
+                <img src={require('../../../assets/Prabin.png').default}  alt='' className='picture' />
             </div>
         </div>
         <SocialContact />
