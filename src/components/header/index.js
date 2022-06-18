@@ -4,7 +4,7 @@ import './header.css'
 import Mobile from './mobile'
 //import Mobile from './mobile'
 import Web from './web'
-import { FcMenu } from 'react-icons/fc'
+//import { FcMenu } from 'react-icons/fc'
 
 function Header() {
     const[isOpen, setIsOpen] = useState(false);
@@ -17,7 +17,7 @@ function Header() {
             </div>
             <div className='mobile-menu'>
                 <div onClick={()=> setIsOpen(!isOpen)}>
-                    <i class ='' /><FcMenu />
+                    <i className ='fi-rr-apps menu-icon' />
                 </div>
                 {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
             </div>
