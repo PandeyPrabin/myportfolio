@@ -8,6 +8,7 @@
 }
 .picture{
     height: 420px;
+    border-radius: 200px;
 }
 .about-info{
     font-size: 24px;

@@ -2,26 +2,26 @@ export const SocialData = [
 {
     platform:'Instagram',
     icon:require('../../assets/instagram.png').default,
-    link:'#',
+    link:'https://www.instagram.com/pandey_prabin/',
 },
 {
     platform:'Github',
     icon:require('../../assets/github.png').default,
-    link:'#',
+    link:'https://github.com/PandeyPrabin',
 },
 {
     platform:'Linkedin',
     icon:require('../../assets/linkedin.png').default,
-    link:'#',
+    link:'https://www.linkedin.com/in/prabin-pandey-257858129/',
 },
 {
     platform:'Facebook',
     icon:require('../../assets/facebook.png').default,
-    link:'#',
+    link:'https://www.facebook.com/prabin.pandey.9',
 },
 {
     platform:'Twitter',
     icon:require('../../assets/twitter.png').default,
-    link:'#',
+    link:'https://twitter.com/prabin_pandey4',
 },
 ];
